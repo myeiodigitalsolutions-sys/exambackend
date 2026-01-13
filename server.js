@@ -16,7 +16,6 @@ const allowedOrigins = [
   'http://localhost:3000',
   'https://ueexam.vercel.app',
   'https://ueexams.com',
-  'https://exam-portal-dun.vercel.app',
 ];
 
 const corsOptions = {
@@ -107,7 +106,7 @@ app.post('/api/auth/get-role', async (req, res) => {
 
 // Initialize admin user
 async function initializeAdminUser() {
-  const email = 'uelms2025@gmail.com';
+  const email = 'epicuniclg@gmail.com';
   const password = 'admin123';
   try {
     const existingUser = await admin.auth().getUserByEmail(email).catch(err => null);
