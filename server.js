@@ -16,6 +16,7 @@ const allowedOrigins = [
   'http://localhost:3000',
   'https://ueexam.vercel.app',
   'https://ueexams.com',
+  'https://exam-portal-dun.vercel.app'
 ];
 
 const corsOptions = {
